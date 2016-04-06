@@ -27,11 +27,11 @@ Steps to following :
 - Create a new database in PgAdmin
 - Open the "liquibase.properties" file and configure your database url, username, password...
 
-  driver: org.postgresql.Driver
-  classpath: C:/apache-tomcat-7.0.39/lib/postgresql-9.4.1208.jre6.jar
-  url: jdbc:postgresql://localhost:5432/test
-  username: postgres
-  password: postgres
+driver: org.postgresql.Driver
+classpath: C:/apache-tomcat-7.0.39/lib/postgresql-9.4.1208.jre6.jar
+url: jdbc:postgresql://localhost:5432/test
+username: postgres
+password: postgres
 
 
 
