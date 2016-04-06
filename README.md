@@ -26,12 +26,17 @@ Steps to following :
 - Retrieve the project on gitlab : URL
 - Create a new database in PgAdmin
 - Open the "liquibase.properties" file and configure your database url, username, password...
+- Open the "init-user.xml" file and change the value in the property tag called 'user'
+- Run init-database.sh executing the command : $ ./init-database.sh
 
-driver: org.postgresql.Driver
-classpath: C:/apache-tomcat-7.0.39/lib/postgresql-9.4.1208.jre6.jar
-url: jdbc:postgresql://localhost:5432/test
-username: postgres
-password: postgres
+### Insert boards in the database
+
+Steps to following :
+- Run init-data-boards.sh executing the command : $ ./init-data-boards.sh user count
+
+Now, you have a user who have n different boards with the sceme described above.
+
+
 
 
 
